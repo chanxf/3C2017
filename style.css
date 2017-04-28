@@ -27,7 +27,7 @@ textarea {
   background: rgb(28, 184, 65); /* this is a green */
 }
 .button-xlarge {
-  font-size: 125%;
+  font-size: 100%;
 }
 button {
   float: right;
