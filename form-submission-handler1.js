@@ -1,4 +1,9 @@
 
+function validEmail(email) { // see:
+  var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+  return re.test(email);
+}
+// get all data in form and return object
 function getFormData() {
   var elements = document.getElementById("gform").elements; // all form elements
   var fields = Object.keys(elements).map(function(k) {
@@ -70,3 +75,4 @@ function loaded() {
   form.addEventListener("submit", handleFormSubmit, false);
 };
 document.addEventListener('DOMContentLoaded', loaded, false);
+
