@@ -3,10 +3,10 @@ body {
 }
 aside {
     background: #1f8dd6; /* same color as selected state on site menu */
-    padding: 0.3em 1em;
-    border-radius: 1px;
+    padding: 0.3em 0em;
+    border-radius: 0px;
     color: #fff;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 textarea {
   width: 100%;
@@ -14,8 +14,8 @@ textarea {
 .content-head {
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 1em 0 1em;
+  letter-spacing: 0em;
+  margin: 0em 0 0em;
 }
 .is-center {
   text-align: center;
